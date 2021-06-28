@@ -3,7 +3,7 @@
  * * 题目地址：https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string
  */
 
-// * 思路：
+// * 思路：用一个栈即可 过于简单 这题跳
 
 
 

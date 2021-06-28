@@ -3,7 +3,7 @@
  * * 题目地址：https://leetcode-cn.com/problems/implement-queue-using-stacks
  */
 
-// * 思路：
+// * 思路： 重复题 跳
 
 
 

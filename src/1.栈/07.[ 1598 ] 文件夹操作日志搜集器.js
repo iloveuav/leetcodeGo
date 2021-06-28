@@ -3,7 +3,7 @@
  * * 题目地址：https://leetcode-cn.com/problems/crawler-log-folder
  */
 
-// * 思路：
+// * 思路：过于简单 跳吧
 
 
 

@@ -40,6 +40,7 @@
 // if （ &num>0 num ++ +=s[i]
 // if  ）&—num>0 num   - - +=s[i]
 
+//自己写的
 var removeOuterParentheses = function(s){
   
   let num = 0;
@@ -53,6 +54,31 @@ var removeOuterParentheses = function(s){
   return result
   console.log(result)
 }
+
+//题解 比自己的优
+var removeOuterParentheses = function(S) {
+  let res = "";
+  let cnt = 0;
+  let start = 0;
+  for (let i = 0; i < S.length; i++) {
+      if (S[i] === '(') {
+          cnt++;
+      } else {
+          if (--cnt === 0) {
+              // 找到原语，拼接结果
+              res += S.substring(start + 1, i);
+              // 设置下一个原语起点，继续查找
+              start = i + 1;
+          }
+      }
+  }
+  return res;
+};
+
+// 作者：huang-ming-xing
+// 链接：https://leetcode-cn.com/problems/remove-outermost-parentheses/solution/javascriptji-bai-70100xie-fa-by-huang-ming-xing/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 

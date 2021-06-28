@@ -3,7 +3,7 @@
  * * 题目地址：https://leetcode-cn.com/problems/baseball-game
  */
 
-// * 思路：
+// * 思路：跳过简答题
 
 
 
